@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Performance Calculator</title>
+    <link rel="stylesheet" href="academic.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Academic Performance Calculator</h1>
+        <label for="mathGrade">Math Grade:</label>
+        <input type="number" id="mathGrade" min="0" max="100">
+        <label for="scienceGrade">Science Grade:</label>
+        <input type="number" id="scienceGrade" min="0" max="100">
+        <label for="englishGrade">English Grade:</label>
+        <input type="number" id="englishGrade" min="0" max="100">
+        <button onclick="calculatePerformance()">Calculate Performance</button>
+        <div id="result"></div>
+        <div id="suggestions"></div>
+    </div>
+    <script src="academic.js"></script>
+</body>
+</html>
